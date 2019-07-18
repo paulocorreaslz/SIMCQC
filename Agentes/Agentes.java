@@ -9,7 +9,7 @@ import jade.wrapper.StaleProxyException;
 
 /*
  * Created by Paulo Jose Melo Gomes Correa @2009
- * Unifersidade Federal do Maranhao - UFMA
+ * Universidade Federal do Maranhao - UFMA
  * pauloyaco@gmail.com
  */
 

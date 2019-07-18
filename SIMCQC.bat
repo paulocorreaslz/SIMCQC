@@ -1,0 +1,1 @@
+java jade.Boot AgenteSupervisor:Agentes.AgenteSupervisor AgenteCognitivo:Agentes.AgenteGestor AgenteInterface:Agentes.Interface

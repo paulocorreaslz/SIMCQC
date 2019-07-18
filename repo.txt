@@ -1,0 +1,26 @@
+
+Supervisor: Informação recebida do Irox. Mensagem :
+(INFORM
+ :sender  ( agent-identifier :name AgenteIrox@pandora:1099/JADE  :addresses (sequence http://pandora:7778/acc http://pandora:51417/acc http://pandora:51420/acc ))
+ :receiver  (set ( agent-identifier :name AgenteSupervisor@pandora:1099/JADE ) )
+ :content  "((INFORMATION (agent-identifier :name AgenteIrox@pandora:1099/JADE :addresses (sequence http://pandora:7778/acc http://pandora:51417/acc http://pandora:51420/acc)) 
+ Irox (GASOLINE :serialID 0 :nameSample GC0807-171 :dateSample \"08/07/2007\" 
+ :typeSample Composicao :properties 
+ (sequence (PROPERTY :name ETA :value 0.0) (PROPERTY :name BEN :value 0.2) 
+ (PROPERTY :name AROM :value 15.6) (PROPERTY :name OLEF :value 14.0) 
+ (PROPERTY :name SAT :value 43.6) (PROPERTY :name MON :value 83.0) 
+ (PROPERTY :name ROM :value 97.0)))))" 
+ :language  fipa-sl  :ontology  FuelOntology )
+
+Gestor: Informação recebida do Supervisor. Mensagem :
+Gestor Messagem: (INFORM
+ :sender  ( agent-identifier :name AgenteSupervisor@pandora:1099/JADE  :addresses (sequence http://pandora:7778/acc http://pandora:51417/acc http://pandora:51420/acc ))
+ :receiver  (set ( agent-identifier :name AgenteCognitivo@pandora:1099/JADE ) )
+ :content  "((INFORMATION (agent-identifier :name AgenteSupervisor@pandora:1099/JADE :addresses (sequence http://pandora:7778/acc http://pandora:51417/acc http://pandora:51420/acc)) 
+ Supervisor (GASOLINE :serialID 0 :nameSample GC0807-183 :dateSample \"08/07/2007\" 
+ :typeSample Composicao :properties 
+ (sequence (PROPERTY :name ETA :value 0.0) (PROPERTY :name BEN :value 0.2) 
+ (PROPERTY :name AROM :value 16.3) (PROPERTY :name OLEF :value 13.4) 
+ (PROPERTY :name SAT :value 44.7) (PROPERTY :name MON :value 83.2) 
+ (PROPERTY :name ROM :value 98.4)))))" 
+ :language  fipa-sl  :ontology  FuelOntology )

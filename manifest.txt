@@ -1,0 +1,3 @@
+Main-Class: Agentes.Agentes
+Name: Agentes/Agentes.class
+Java-Bean: True
